@@ -1,0 +1,10 @@
+ai.google.dev 
+
+click->
+create api key 
+
+copy code from documention from gemini-> https://ai.google.dev/gemini-api/docs#javascript
+
+
+package install 
+npm i @google/generative-ai 
