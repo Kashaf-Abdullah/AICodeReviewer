@@ -1,6 +1,6 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
-const genAI = new GoogleGenerativeAI('AIzaSyBXZKc05G7F51Ldn2vWLCZo9yMrmiRR7GU');
+const genAI = new GoogleGenerativeAI(process.env.GOOGLE_GEMINI_KEY);
 const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" ,
 //instruction so ai can get what workk should done 
 //   systemInstruction:'You are a code reviewer,who have an expertise in devlopment. You look for the code and find the problem and suggest the solution to the developer. You always try to find the best solution for the developer abd to make the code more efficient and clean '
